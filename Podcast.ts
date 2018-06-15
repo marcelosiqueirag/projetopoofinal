@@ -1,6 +1,6 @@
 import {Audio} from './Audio';
 
-export class Poscasts extends Audio{
+export class Podcast extends Audio{
     private tematica: string
 
     public constructor (codigo:string, nome:string, genero:string, preco:number, autor:string, duracao:number, tematica:string){
